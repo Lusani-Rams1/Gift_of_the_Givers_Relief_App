@@ -1349,5 +1349,5 @@
     }
   },
   "type": "object",
-  "SourceSegments": "C:\\Users\\ntebe\\.nuget\\packages\\system.clientmodel\\1.10.0\\ConfigurationSchema.json;C:\\Users\\ntebe\\.nuget\\packages\\azure.core\\1.53.0\\ConfigurationSchema.json"
+  "SourceSegments": "C:\\Users\\Signl\\.nuget\\packages\\system.clientmodel\\1.10.0\\ConfigurationSchema.json;C:\\Users\\Signl\\.nuget\\packages\\azure.core\\1.53.0\\ConfigurationSchema.json"
 }

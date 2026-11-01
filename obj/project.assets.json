@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net8.0": {
       "Azure.Core/1.53.0": {
@@ -5542,24 +5542,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ntebe\\.nuget\\packages\\": {},
+    "C:\\Users\\Signl\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ntebe\\Source\\Repos\\GiftOfTheGiversReliefApp\\Gift_of_the_Givers_Relief_App.csproj",
+      "projectUniqueName": "C:\\Users\\Signl\\source\\repos\\Lusani-Rams1\\Gift_of_the_Givers_Relief_App\\Gift_of_the_Givers_Relief_App.csproj",
       "projectName": "Gift_of_the_Givers_Relief_App",
-      "projectPath": "C:\\Users\\ntebe\\Source\\Repos\\GiftOfTheGiversReliefApp\\Gift_of_the_Givers_Relief_App.csproj",
-      "packagesPath": "C:\\Users\\ntebe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ntebe\\Source\\Repos\\GiftOfTheGiversReliefApp\\obj\\",
+      "projectPath": "C:\\Users\\Signl\\source\\repos\\Lusani-Rams1\\Gift_of_the_Givers_Relief_App\\Gift_of_the_Givers_Relief_App.csproj",
+      "packagesPath": "C:\\Users\\Signl\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Signl\\source\\repos\\Lusani-Rams1\\Gift_of_the_Givers_Relief_App\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ntebe\\Source\\Repos\\GiftOfTheGiversReliefApp\\NuGet.Config",
-        "C:\\Users\\ntebe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Signl\\source\\repos\\Lusani-Rams1\\Gift_of_the_Givers_Relief_App\\NuGet.Config",
+        "C:\\Users\\Signl\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5572,6 +5572,7 @@
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {}
         }
@@ -5586,10 +5587,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.400"
     },
     "frameworks": {
       "net8.0": {
+        "framework": "net8.0",
         "targetAlias": "net8.0",
         "dependencies": {
           "Azure.Identity": {
@@ -5638,8 +5640,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.317/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://pkgs.dev.azure.com/Giftofthegiver-App/giftofthegivers/_packaging/giftofthegivers-feed/nuget/v3/index.json."
+    }
+  ]
 }

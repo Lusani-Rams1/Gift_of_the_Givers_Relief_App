@@ -1,0 +1,13 @@
+C:\Users\Signl\source\repos\Lusani-Rams1\Gift_of_the_Givers_Relief_App\GiftOfTheGivers.Helpers\bin\Debug\net8.0\GiftOfTheGivers.Helpers.deps.json
+C:\Users\Signl\source\repos\Lusani-Rams1\Gift_of_the_Givers_Relief_App\GiftOfTheGivers.Helpers\bin\Debug\net8.0\GiftOfTheGivers.Helpers.dll
+C:\Users\Signl\source\repos\Lusani-Rams1\Gift_of_the_Givers_Relief_App\GiftOfTheGivers.Helpers\bin\Debug\net8.0\GiftOfTheGivers.Helpers.pdb
+C:\Users\Signl\source\repos\Lusani-Rams1\Gift_of_the_Givers_Relief_App\GiftOfTheGivers.Helpers\obj\Debug\net8.0\GiftOfTheGivers.Helpers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Signl\source\repos\Lusani-Rams1\Gift_of_the_Givers_Relief_App\GiftOfTheGivers.Helpers\obj\Debug\net8.0\GiftOfTheGivers.Helpers.AssemblyInfoInputs.cache
+C:\Users\Signl\source\repos\Lusani-Rams1\Gift_of_the_Givers_Relief_App\GiftOfTheGivers.Helpers\obj\Debug\net8.0\GiftOfTheGivers.Helpers.AssemblyInfo.cs
+C:\Users\Signl\source\repos\Lusani-Rams1\Gift_of_the_Givers_Relief_App\GiftOfTheGivers.Helpers\obj\Debug\net8.0\GiftOfTheGivers.Helpers.csproj.CoreCompileInputs.cache
+C:\Users\Signl\source\repos\Lusani-Rams1\Gift_of_the_Givers_Relief_App\GiftOfTheGivers.Helpers\obj\Debug\net8.0\GiftOfTheGivers.Helpers.sourcelink.json
+C:\Users\Signl\source\repos\Lusani-Rams1\Gift_of_the_Givers_Relief_App\GiftOfTheGivers.Helpers\obj\Debug\net8.0\GiftOfTheGivers.Helpers.dll
+C:\Users\Signl\source\repos\Lusani-Rams1\Gift_of_the_Givers_Relief_App\GiftOfTheGivers.Helpers\obj\Debug\net8.0\refint\GiftOfTheGivers.Helpers.dll
+C:\Users\Signl\source\repos\Lusani-Rams1\Gift_of_the_Givers_Relief_App\GiftOfTheGivers.Helpers\obj\Debug\net8.0\GiftOfTheGivers.Helpers.pdb
+C:\Users\Signl\source\repos\Lusani-Rams1\Gift_of_the_Givers_Relief_App\GiftOfTheGivers.Helpers\obj\Debug\net8.0\ref\GiftOfTheGivers.Helpers.dll
+C:\Users\Signl\source\repos\Lusani-Rams1\Gift_of_the_Givers_Relief_App\GiftOfTheGivers.Helpers\obj\Debug\net8.0\GiftOfTh.F91C8F2E.Up2Date

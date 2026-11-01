@@ -1,17 +1,50 @@
-# ASP.NET Core
-# Build and test ASP.NET Core projects targeting .NET Core.
-# Add steps that run tests, create a NuGet package, deploy, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
-
 trigger:
-- main
+  branches:
+    include:
+      - main
+      - master
+      - '*-feature'     # e.g. donations-feature, volunteer-feature
+      - feature/*
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: windows-latest
 
 variables:
-  buildConfiguration: 'Release'
+  buildConfiguration: Release
 
 steps:
-- script: dotnet build --configuration $(buildConfiguration)
-  displayName: 'dotnet build $(buildConfiguration)'
+  - task: UseDotNet@2
+    displayName: Install .NET SDK
+    inputs:
+      packageType: sdk
+      version: '8.x'
+
+  # The web project restores packages from the private Azure Artifacts feed in nuget.config,
+  # so the agent has to authenticate to that feed first.
+  - task: NuGetAuthenticate@1
+    displayName: Authenticate to Azure Artifacts feed
+
+  - task: DotNetCoreCLI@2
+    displayName: Restore dependencies
+    inputs:
+      command: restore
+      projects: '**/*.sln'
+      feedsToUse: config
+      nugetConfigPath: 'nuget.config'
+
+  - task: DotNetCoreCLI@2
+    displayName: Build solution
+    inputs:
+      command: build
+      projects: '**/*.sln'
+      arguments: '--configuration $(buildConfiguration) --no-restore'
+
+  # Unit tests only. FunctionIntegrationTests need Azurite and the running Functions host,
+  # and UiTests need Chrome and a running site, none of which exist on the build agent.
+  - task: DotNetCoreCLI@2
+    displayName: Run unit tests
+    inputs:
+      command: test
+      projects: '**/GiftOfTheGivers.Tests.csproj'
+      arguments: '--configuration $(buildConfiguration) --no-build --filter "FullyQualifiedName!~FunctionIntegrationTests"'
+      publishTestResults: true

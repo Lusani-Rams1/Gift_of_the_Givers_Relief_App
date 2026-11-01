@@ -1,117 +1,120 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v8.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EntryPointFilePath = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Gift_of_the_Givers_Relief_App
 build_property.RootNamespace = Gift_of_the_Givers_Relief_App
-build_property.ProjectDir = C:\Users\ntebe\Source\Repos\GiftOfTheGiversReliefApp\
+build_property.ProjectDir = C:\Users\Signl\source\repos\Lusani-Rams1\Gift_of_the_Givers_Relief_App\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ntebe\Source\Repos\GiftOfTheGiversReliefApp
+build_property.MSBuildProjectDirectory = C:\Users\Signl\source\repos\Lusani-Rams1\Gift_of_the_Givers_Relief_App
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/ntebe/Source/Repos/GiftOfTheGiversReliefApp/Pages/Account/Login.cshtml]
+[C:/Users/Signl/source/repos/Lusani-Rams1/Gift_of_the_Givers_Relief_App/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ntebe/Source/Repos/GiftOfTheGiversReliefApp/Pages/Account/Register.cshtml]
+[C:/Users/Signl/source/repos/Lusani-Rams1/Gift_of_the_Givers_Relief_App/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ntebe/Source/Repos/GiftOfTheGiversReliefApp/Pages/Admin/Dashboard.cshtml]
+[C:/Users/Signl/source/repos/Lusani-Rams1/Gift_of_the_Givers_Relief_App/Pages/Admin/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ntebe/Source/Repos/GiftOfTheGiversReliefApp/Pages/Admin/Database/Index.cshtml]
+[C:/Users/Signl/source/repos/Lusani-Rams1/Gift_of_the_Givers_Relief_App/Pages/Admin/Database/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGF0YWJhc2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ntebe/Source/Repos/GiftOfTheGiversReliefApp/Pages/Admin/Volunteers/Verify.cshtml]
+[C:/Users/Signl/source/repos/Lusani-Rams1/Gift_of_the_Givers_Relief_App/Pages/Admin/Volunteers/Verify.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVm9sdW50ZWVyc1xWZXJpZnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ntebe/Source/Repos/GiftOfTheGiversReliefApp/Pages/ContactUs.cshtml]
+[C:/Users/Signl/source/repos/Lusani-Rams1/Gift_of_the_Givers_Relief_App/Pages/ContactUs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdFVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ntebe/Source/Repos/GiftOfTheGiversReliefApp/Pages/Disasters/Details.cshtml]
+[C:/Users/Signl/source/repos/Lusani-Rams1/Gift_of_the_Givers_Relief_App/Pages/Disasters/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzYXN0ZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ntebe/Source/Repos/GiftOfTheGiversReliefApp/Pages/Disasters/Get_help.cshtml]
+[C:/Users/Signl/source/repos/Lusani-Rams1/Gift_of_the_Givers_Relief_App/Pages/Disasters/Get_help.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzYXN0ZXJzXEdldF9oZWxwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ntebe/Source/Repos/GiftOfTheGiversReliefApp/Pages/Donators/Donators_form.cshtml]
+[C:/Users/Signl/source/repos/Lusani-Rams1/Gift_of_the_Givers_Relief_App/Pages/Donators/Donators_form.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9uYXRvcnNcRG9uYXRvcnNfZm9ybS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ntebe/Source/Repos/GiftOfTheGiversReliefApp/Pages/Donators/TaxCertificate.cshtml]
+[C:/Users/Signl/source/repos/Lusani-Rams1/Gift_of_the_Givers_Relief_App/Pages/Donators/TaxCertificate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9uYXRvcnNcVGF4Q2VydGlmaWNhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ntebe/Source/Repos/GiftOfTheGiversReliefApp/Pages/EmployeeDashboard/Index.cshtml]
+[C:/Users/Signl/source/repos/Lusani-Rams1/Gift_of_the_Givers_Relief_App/Pages/EmployeeDashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVEYXNoYm9hcmRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ntebe/Source/Repos/GiftOfTheGiversReliefApp/Pages/EmployeeDashboard/PostUpdate.cshtml]
+[C:/Users/Signl/source/repos/Lusani-Rams1/Gift_of_the_Givers_Relief_App/Pages/EmployeeDashboard/PostUpdate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVEYXNoYm9hcmRcUG9zdFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ntebe/Source/Repos/GiftOfTheGiversReliefApp/Pages/EmployeeDashboard/ReliefProjects.cshtml]
+[C:/Users/Signl/source/repos/Lusani-Rams1/Gift_of_the_Givers_Relief_App/Pages/EmployeeDashboard/ReliefProjects.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVEYXNoYm9hcmRcUmVsaWVmUHJvamVjdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ntebe/Source/Repos/GiftOfTheGiversReliefApp/Pages/EmployeeDashboard/VolunteerSignups.cshtml]
+[C:/Users/Signl/source/repos/Lusani-Rams1/Gift_of_the_Givers_Relief_App/Pages/EmployeeDashboard/VolunteerSignups.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVEYXNoYm9hcmRcVm9sdW50ZWVyU2lnbnVwcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ntebe/Source/Repos/GiftOfTheGiversReliefApp/Pages/Error.cshtml]
+[C:/Users/Signl/source/repos/Lusani-Rams1/Gift_of_the_Givers_Relief_App/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ntebe/Source/Repos/GiftOfTheGiversReliefApp/Pages/Index.cshtml]
+[C:/Users/Signl/source/repos/Lusani-Rams1/Gift_of_the_Givers_Relief_App/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ntebe/Source/Repos/GiftOfTheGiversReliefApp/Pages/Privacy.cshtml]
+[C:/Users/Signl/source/repos/Lusani-Rams1/Gift_of_the_Givers_Relief_App/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ntebe/Source/Repos/GiftOfTheGiversReliefApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Signl/source/repos/Lusani-Rams1/Gift_of_the_Givers_Relief_App/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ntebe/Source/Repos/GiftOfTheGiversReliefApp/Pages/Volunteers/Dashboard.cshtml]
+[C:/Users/Signl/source/repos/Lusani-Rams1/Gift_of_the_Givers_Relief_App/Pages/Volunteers/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVm9sdW50ZWVyc1xEYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ntebe/Source/Repos/GiftOfTheGiversReliefApp/Pages/Volunteers/Pending.cshtml]
+[C:/Users/Signl/source/repos/Lusani-Rams1/Gift_of_the_Givers_Relief_App/Pages/Volunteers/Pending.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVm9sdW50ZWVyc1xQZW5kaW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ntebe/Source/Repos/GiftOfTheGiversReliefApp/Pages/Volunteers/Volunteers_form.cshtml]
+[C:/Users/Signl/source/repos/Lusani-Rams1/Gift_of_the_Givers_Relief_App/Pages/Volunteers/Volunteers_form.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVm9sdW50ZWVyc1xWb2x1bnRlZXJzX2Zvcm0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ntebe/Source/Repos/GiftOfTheGiversReliefApp/Pages/_ViewImports.cshtml]
+[C:/Users/Signl/source/repos/Lusani-Rams1/Gift_of_the_Givers_Relief_App/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ntebe/Source/Repos/GiftOfTheGiversReliefApp/Pages/_ViewStart.cshtml]
+[C:/Users/Signl/source/repos/Lusani-Rams1/Gift_of_the_Givers_Relief_App/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ntebe/Source/Repos/GiftOfTheGiversReliefApp/Pages/Shared/_Layout.cshtml]
+[C:/Users/Signl/source/repos/Lusani-Rams1/Gift_of_the_Givers_Relief_App/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-pqhagcgbw7

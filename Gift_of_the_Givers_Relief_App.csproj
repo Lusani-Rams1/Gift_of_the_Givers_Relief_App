@@ -13,8 +13,20 @@
   <ItemGroup>
     <Folder Include="wwwroot\images\" />
 	  <Compile Remove="GiftOfTheGivers.Functions/**/*.cs" />
+	  <Compile Remove="GiftOfTheGivers.Helpers\**" />
+	  <Compile Remove="GiftOfTheGivers.Tests\**" />
+	  <Compile Remove="GiftOfTheGivers.UITests\**" />
 	  <Content Remove="GiftOfTheGivers.Functions/**" />
+	  <Content Remove="GiftOfTheGivers.Helpers\**" />
+	  <Content Remove="GiftOfTheGivers.Tests\**" />
+	  <Content Remove="GiftOfTheGivers.UITests\**" />
+	  <EmbeddedResource Remove="GiftOfTheGivers.Helpers\**" />
+	  <EmbeddedResource Remove="GiftOfTheGivers.Tests\**" />
+	  <EmbeddedResource Remove="GiftOfTheGivers.UITests\**" />
 	  <None Remove="GiftOfTheGivers.Functions/**" />
+	  <None Remove="GiftOfTheGivers.Helpers\**" />
+	  <None Remove="GiftOfTheGivers.Tests\**" />
+	  <None Remove="GiftOfTheGivers.UITests\**" />
   </ItemGroup>
 
   <ItemGroup>
