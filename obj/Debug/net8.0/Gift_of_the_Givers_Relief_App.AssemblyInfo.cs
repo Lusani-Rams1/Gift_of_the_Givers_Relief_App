@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gift_of_the_Givers_Relief_App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fd86ecd0b92f655676beac488a7bae0d718feb6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+054a1c4f898965ce241e0eafa2b7343ad6412b50")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gift_of_the_Givers_Relief_App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gift_of_the_Givers_Relief_App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
