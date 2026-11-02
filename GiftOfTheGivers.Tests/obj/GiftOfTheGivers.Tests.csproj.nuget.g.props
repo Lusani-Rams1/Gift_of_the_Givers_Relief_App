@@ -22,5 +22,6 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">C:\Users\Signl\.nuget\packages\xunit.analyzers\1.16.0</Pkgxunit_analyzers>
+    <PkgAzurite Condition=" '$(PkgAzurite)' == '' ">C:\Users\Signl\.nuget\packages\azurite\2.6.5</PkgAzurite>
   </PropertyGroup>
 </Project>

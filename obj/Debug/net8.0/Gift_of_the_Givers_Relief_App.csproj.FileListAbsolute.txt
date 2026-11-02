@@ -185,6 +185,6 @@ C:\Users\Signl\source\repos\Lusani-Rams1\Gift_of_the_Givers_Relief_App\obj\Debug
 C:\Users\Signl\source\repos\Lusani-Rams1\Gift_of_the_Givers_Relief_App\obj\Debug\net8.0\Gift_of_the_Givers_Relief_App.pdb
 C:\Users\Signl\source\repos\Lusani-Rams1\Gift_of_the_Givers_Relief_App\obj\Debug\net8.0\Gift_of_the_Givers_Relief_App.genruntimeconfig.cache
 C:\Users\Signl\source\repos\Lusani-Rams1\Gift_of_the_Givers_Relief_App\obj\Debug\net8.0\ref\Gift_of_the_Givers_Relief_App.dll
-C:\Users\Signl\source\repos\Lusani-Rams1\Gift_of_the_Givers_Relief_App\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Signl\source\repos\Lusani-Rams1\Gift_of_the_Givers_Relief_App\bin\Debug\net8.0\azurite_workspace\__azurite_db_blob__.json
 C:\Users\Signl\source\repos\Lusani-Rams1\Gift_of_the_Givers_Relief_App\bin\Debug\net8.0\azurite_workspace\__azurite_db_table__.json
+C:\Users\Signl\source\repos\Lusani-Rams1\Gift_of_the_Givers_Relief_App\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

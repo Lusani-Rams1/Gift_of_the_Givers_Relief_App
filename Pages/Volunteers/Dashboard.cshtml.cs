@@ -16,7 +16,7 @@ namespace Gift_of_the_Givers_Relief_App.Pages.Volunteers
         }
 
         public Volunteer? Volunteer { get; private set; }
-        public User? User { get; private set; }
+        public User? Volunteers { get; private set; }
         public List<VolunteerAssignment> Assignments { get; private set; } = new();
 
         public async Task<IActionResult> OnGetAsync()
@@ -47,7 +47,7 @@ namespace Gift_of_the_Givers_Relief_App.Pages.Volunteers
                 return RedirectToPage("/Volunteers/Pending");
             }
 
-            User = user;
+            Volunteers = user;
             Volunteer = volunteer;
             Assignments = await _context.VolunteerAssignments
                 .Where(a => a.VolunteerID == volunteer.VolunteerID)

@@ -31,7 +31,7 @@ namespace Gift_of_the_Givers_Relief_App.Pages.Donators
         }
 
         [BindProperty]
-        public CertificateRequest Request { get; set; } = new();
+        public CertificateRequest Requests { get; set; } = new();
 
         public string? Message { get; set; }
         public string? ErrorMessage { get; set; }
@@ -56,13 +56,13 @@ namespace Gift_of_the_Givers_Relief_App.Pages.Donators
             }
 
             // 1. Look up the donation by reference (DonationID) and email
-            if (!int.TryParse(Request.Reference.Trim(), out var donationId))
+            if (!int.TryParse(Requests.Reference.Trim(), out var donationId))
             {
                 ErrorMessage = "Invalid donation reference. Please use the numeric donation ID from your receipt.";
                 return Page();
             }
 
-            var emailLower = Request.Email.Trim().ToLowerInvariant();
+            var emailLower = Requests.Email.Trim().ToLowerInvariant();
 
             var donation = await _db.Donations
                 .Include(d => d.Donor)
@@ -125,7 +125,7 @@ namespace Gift_of_the_Givers_Relief_App.Pages.Donators
                     new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
 
                 Message = "Tax certificate generated successfully.";
-                Request = new CertificateRequest();
+                Requests = new CertificateRequest();
             }
             catch (HttpRequestException)
             {

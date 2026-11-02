@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Ia+8i0smuII=",
+  "dgSpecHash": "/vEgU0XMZNk=",
   "success": true,
   "projectFilePath": "C:\\Users\\Signl\\source\\repos\\Lusani-Rams1\\Gift_of_the_Givers_Relief_App\\GiftOfTheGivers.Tests\\GiftOfTheGivers.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Signl\\.nuget\\packages\\azure.core\\1.41.0\\azure.core.1.41.0.nupkg.sha512",
     "C:\\Users\\Signl\\.nuget\\packages\\azure.data.tables\\12.9.0\\azure.data.tables.12.9.0.nupkg.sha512",
+    "C:\\Users\\Signl\\.nuget\\packages\\azurite\\2.6.5\\azurite.2.6.5.nupkg.sha512",
     "C:\\Users\\Signl\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Signl\\.nuget\\packages\\microsoft.codecoverage\\17.11.1\\microsoft.codecoverage.17.11.1.nupkg.sha512",
     "C:\\Users\\Signl\\.nuget\\packages\\microsoft.net.test.sdk\\17.11.1\\microsoft.net.test.sdk.17.11.1.nupkg.sha512",

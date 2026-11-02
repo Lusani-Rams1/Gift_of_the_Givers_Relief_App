@@ -42,6 +42,9 @@
           }
         }
       },
+      "Azurite/2.6.5": {
+        "type": "package"
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -573,6 +576,9 @@
       "GiftOfTheGivers.Helpers/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Azurite": "2.6.5"
+        },
         "compile": {
           "bin/placeholder/GiftOfTheGivers.Helpers.dll": {}
         },
@@ -619,6 +625,22 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Data.Tables.dll",
         "lib/netstandard2.0/Azure.Data.Tables.xml"
+      ]
+    },
+    "Azurite/2.6.5": {
+      "sha512": "uxaL8MDK4RN5uTVDdvar/xiU9WVX9e0IXiHMRiL0qLAXub0Fr5C34OIBH+pQ1FZh7W9zfNP09yEuqKLHYHHwKw==",
+      "type": "package",
+      "path": "azurite/2.6.5",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "azurite.2.6.5.nupkg.sha512",
+        "azurite.nuspec",
+        "tools/blob.exe",
+        "tools/init.ps1",
+        "tools/queue.exe",
+        "tools/table.exe"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
