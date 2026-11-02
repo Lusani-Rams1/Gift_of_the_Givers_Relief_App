@@ -48,7 +48,7 @@ public class GenerateTaxCertificate
             DonorName = donation.DonorName,
             Amount = donation.Amount,
             IssuedOn = DateTime.UtcNow,
-            Message = "This is a dummy tax certificate for demonstration purposes only."
+            Message = "Tax certificate generated successfully."
         };
 
         return new OkObjectResult(cert);

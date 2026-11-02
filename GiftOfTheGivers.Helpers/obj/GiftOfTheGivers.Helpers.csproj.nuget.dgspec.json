@@ -52,6 +52,12 @@
         "net8.0": {
           "framework": "net8.0",
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Azurite": {
+              "target": "Package",
+              "version": "[2.6.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

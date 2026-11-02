@@ -13,4 +13,7 @@
     <SourceRoot Include="C:\Users\Signl\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgAzurite Condition=" '$(PkgAzurite)' == '' ">C:\Users\Signl\.nuget\packages\azurite\2.6.5</PkgAzurite>
+  </PropertyGroup>
 </Project>

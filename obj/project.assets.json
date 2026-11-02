@@ -46,6 +46,9 @@
           }
         }
       },
+      "Azurite/2.6.5": {
+        "type": "package"
+      },
       "Google.Protobuf/3.28.0": {
         "type": "package",
         "compile": {
@@ -2189,6 +2192,22 @@
         "lib/net8.0/Azure.Identity.xml",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "Azurite/2.6.5": {
+      "sha512": "uxaL8MDK4RN5uTVDdvar/xiU9WVX9e0IXiHMRiL0qLAXub0Fr5C34OIBH+pQ1FZh7W9zfNP09yEuqKLHYHHwKw==",
+      "type": "package",
+      "path": "azurite/2.6.5",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "azurite.2.6.5.nupkg.sha512",
+        "azurite.nuspec",
+        "tools/blob.exe",
+        "tools/init.ps1",
+        "tools/queue.exe",
+        "tools/table.exe"
       ]
     },
     "Google.Protobuf/3.28.0": {
@@ -5534,6 +5553,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Azure.Identity >= 1.21.0",
+      "Azurite >= 2.6.5",
       "Microsoft.Azure.Functions.Worker >= 2.52.0",
       "Microsoft.Azure.Functions.Worker.Extensions.Http >= 3.3.0",
       "Microsoft.EntityFrameworkCore >= 8.0.0",
@@ -5597,6 +5617,10 @@
           "Azure.Identity": {
             "target": "Package",
             "version": "[1.21.0, )"
+          },
+          "Azurite": {
+            "target": "Package",
+            "version": "[2.6.5, )"
           },
           "Microsoft.Azure.Functions.Worker": {
             "target": "Package",

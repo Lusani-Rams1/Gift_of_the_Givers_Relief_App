@@ -1,11 +1,34 @@
 {
   "version": 4,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "Azurite/2.6.5": {
+        "type": "package"
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Azurite/2.6.5": {
+      "sha512": "uxaL8MDK4RN5uTVDdvar/xiU9WVX9e0IXiHMRiL0qLAXub0Fr5C34OIBH+pQ1FZh7W9zfNP09yEuqKLHYHHwKw==",
+      "type": "package",
+      "path": "azurite/2.6.5",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "azurite.2.6.5.nupkg.sha512",
+        "azurite.nuspec",
+        "tools/blob.exe",
+        "tools/init.ps1",
+        "tools/queue.exe",
+        "tools/table.exe"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "Azurite >= 2.6.5"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Signl\\.nuget\\packages\\": {},
@@ -59,6 +82,12 @@
       "net8.0": {
         "framework": "net8.0",
         "targetAlias": "net8.0",
+        "dependencies": {
+          "Azurite": {
+            "target": "Package",
+            "version": "[2.6.5, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -78,5 +107,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://pkgs.dev.azure.com/Giftofthegiver-App/giftofthegivers/_packaging/giftofthegivers-feed/nuget/v3/index.json."
+    }
+  ]
 }

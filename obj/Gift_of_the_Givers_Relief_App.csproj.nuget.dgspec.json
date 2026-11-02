@@ -57,6 +57,10 @@
               "target": "Package",
               "version": "[1.21.0, )"
             },
+            "Azurite": {
+              "target": "Package",
+              "version": "[2.6.5, )"
+            },
             "Microsoft.Azure.Functions.Worker": {
               "target": "Package",
               "version": "[2.52.0, )"

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "y+uX8qkDOE8=",
+  "dgSpecHash": "nzoOR7EjehY=",
   "success": true,
   "projectFilePath": "C:\\Users\\Signl\\source\\repos\\Lusani-Rams1\\Gift_of_the_Givers_Relief_App\\Gift_of_the_Givers_Relief_App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Signl\\.nuget\\packages\\azure.core\\1.53.0\\azure.core.1.53.0.nupkg.sha512",
     "C:\\Users\\Signl\\.nuget\\packages\\azure.identity\\1.21.0\\azure.identity.1.21.0.nupkg.sha512",
+    "C:\\Users\\Signl\\.nuget\\packages\\azurite\\2.6.5\\azurite.2.6.5.nupkg.sha512",
     "C:\\Users\\Signl\\.nuget\\packages\\google.protobuf\\3.28.0\\google.protobuf.3.28.0.nupkg.sha512",
     "C:\\Users\\Signl\\.nuget\\packages\\grpc.core.api\\2.65.0\\grpc.core.api.2.65.0.nupkg.sha512",
     "C:\\Users\\Signl\\.nuget\\packages\\grpc.net.client\\2.65.0\\grpc.net.client.2.65.0.nupkg.sha512",
