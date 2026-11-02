@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
 VisualStudioVersion = 18.11.12324.101
@@ -7,11 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gift_of_the_Givers_Relief_A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiftOfTheGiversFunctions", "GiftOfTheGivers.Functions\GiftOfTheGiversFunctions.csproj", "{5CAD2343-D62D-4018-ABD6-A84CCFEA9359}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiftOfTheGivers.Functions", "..\..\Gift_of_the_Givers_Relief_App\GiftOfTheGivers.Functions\GiftOfTheGivers.Functions.csproj", "{44F72CDC-9BC5-2EC9-29DF-1ABEF0BF1916}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiftOfTheGivers.Tests", "GiftOfTheGivers.Tests\GiftOfTheGivers.Tests.csproj", "{9E1C359C-3B6F-9CF3-2707-B3EEB3B9E268}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiftOfTheGivers.Tests", "..\..\Gift_of_the_Givers_Relief_App\GiftOfTheGivers.Tests\GiftOfTheGivers.Tests.csproj", "{9E1C359C-3B6F-9CF3-2707-B3EEB3B9E268}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiftOfTheGivers.UITests", "..\..\Gift_of_the_Givers_Relief_App\GiftOfTheGivers.UITests\GiftOfTheGivers.UITests.csproj", "{954EBA2E-CCC5-645E-FC9F-6D27AE73A984}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiftOfTheGivers.UITests", "GiftOfTheGivers.UITests\GiftOfTheGivers.UITests.csproj", "{954EBA2E-CCC5-645E-FC9F-6D27AE73A984}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiftOfTheGivers.Helpers", "GiftOfTheGivers.Helpers\GiftOfTheGivers.Helpers.csproj", "{920A58B8-BDCB-4F79-85BA-5EBE0FE58427}"
 EndProject
@@ -49,18 +47,6 @@ Global
 		{5CAD2343-D62D-4018-ABD6-A84CCFEA9359}.Release|x64.Build.0 = Release|Any CPU
 		{5CAD2343-D62D-4018-ABD6-A84CCFEA9359}.Release|x86.ActiveCfg = Release|Any CPU
 		{5CAD2343-D62D-4018-ABD6-A84CCFEA9359}.Release|x86.Build.0 = Release|Any CPU
-		{44F72CDC-9BC5-2EC9-29DF-1ABEF0BF1916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{44F72CDC-9BC5-2EC9-29DF-1ABEF0BF1916}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{44F72CDC-9BC5-2EC9-29DF-1ABEF0BF1916}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{44F72CDC-9BC5-2EC9-29DF-1ABEF0BF1916}.Debug|x64.Build.0 = Debug|Any CPU
-		{44F72CDC-9BC5-2EC9-29DF-1ABEF0BF1916}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{44F72CDC-9BC5-2EC9-29DF-1ABEF0BF1916}.Debug|x86.Build.0 = Debug|Any CPU
-		{44F72CDC-9BC5-2EC9-29DF-1ABEF0BF1916}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{44F72CDC-9BC5-2EC9-29DF-1ABEF0BF1916}.Release|Any CPU.Build.0 = Release|Any CPU
-		{44F72CDC-9BC5-2EC9-29DF-1ABEF0BF1916}.Release|x64.ActiveCfg = Release|Any CPU
-		{44F72CDC-9BC5-2EC9-29DF-1ABEF0BF1916}.Release|x64.Build.0 = Release|Any CPU
-		{44F72CDC-9BC5-2EC9-29DF-1ABEF0BF1916}.Release|x86.ActiveCfg = Release|Any CPU
-		{44F72CDC-9BC5-2EC9-29DF-1ABEF0BF1916}.Release|x86.Build.0 = Release|Any CPU
 		{9E1C359C-3B6F-9CF3-2707-B3EEB3B9E268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9E1C359C-3B6F-9CF3-2707-B3EEB3B9E268}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E1C359C-3B6F-9CF3-2707-B3EEB3B9E268}.Debug|x64.ActiveCfg = Debug|Any CPU
